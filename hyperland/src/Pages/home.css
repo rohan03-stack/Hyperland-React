@@ -1,0 +1,244 @@
+.homeimg{
+    background-image: url("https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/1d2f0b7e76a950b09a53e92f19ab7f60.jpg");
+    height: 662px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 20; */
+    position: relative;
+    filter: blur(3px);
+    
+}
+
+.homeabout{
+    position: absolute;
+    top: 24%;
+    left: 29%;
+   text-align: center;
+   color: white;
+   
+}
+.hero-gradient{
+    background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  font-weight: 600;
+  
+}
+
+
+.label {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;       /* py-2 px-6 */
+  background-color: rgba(224, 246, 59, 0.422); /* bg-primary-500/10 (assuming primary = #3b82f6) */
+  border: 1px solid rgba(246, 246, 59, 0.953); /* border-primary-500/20 */
+  border-radius: 9999px;        /* rounded-full */
+  margin-bottom: 1.5rem;        /* mb-6 */
+}
+
+.label-text {
+  color: rgba(35, 32, 3, 0.967); /* text-primary-400 */
+  font-size: 16px;           /* text-sm */
+  font-weight: 700;              /* font-medium */
+  letter-spacing: 0.05em;        /* tracking-wider */
+  text-transform: uppercase;     /* uppercase */
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;               /* gap-6 */
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .button-container {
+    flex-direction: row;     /* sm:flex-row */
+  }
+}
+
+/* Explore Our Menu button */
+.menu-button {
+  font-size: 20px;       /* text-lg */
+  padding: 1rem 2.5rem;      /* py-4 px-10 */
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+font-weight: bold;
+  border-radius: 9999px;     /* optional rounded style */
+  background-color: #d4ca0c; /* assumed primary color */
+  color: black;
+  
+}
+
+.menu-button:hover {
+  transform: scale(1.05); 
+    box-shadow: 2px 2px 20px gold;
+}
+
+/* Reserve a Table button */
+/* From Uiverse.io by CristianMontoya98 */ 
+.btn {
+     font-size: 1.125rem;       /* text-lg */
+  padding: 15px;   
+
+width: 200px;
+
+ margin: 0.5em;
+ /* background: black; */
+  backdrop-filter: blur(4px);
+ color: yellow;
+ border: 2px solid yellow;
+ border-radius: 20px;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background-color: #d4ca0c;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+
+
+.section{
+    text-align: center;
+    background-color: black;
+    height: auto;
+  
+}
+
+
+.sec-gradient{
+    background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  font-weight: 600; 
+  margin-top: 10px;
+
+}
+
+
+.label-tex {
+  color: rgba(35, 32, 3, 0.967); /* text-primary-400 */
+  font-size: 16px;           /* text-sm */
+  font-weight: 700;              /* font-medium */
+  letter-spacing: 0.05em;        /* tracking-wider */
+  text-transform: uppercase; 
+}
+
+
+.sec-p{
+    font-size: 18px;
+    color: white;
+    /* text-align: center; */
+    width: 600px;
+    margin-left: 31%;
+    margin-top: 42px;
+    font-weight: 400;
+}
+
+
+.grid{
+ display: flex;
+
+ background-color: black;
+ height: auto;
+ overflow: hidden;
+
+ 
+ 
+}
+
+.cards{
+  text-align: center;
+  /* width: 800px; */
+  height: 500px;
+  background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
+ backdrop-filter: blur(10px);
+ border: 1px solid rgba(212,160,36,.2);
+ border-radius: 1rem;
+  padding: 2rem;
+  margin: auto;
+  width: 80%; 
+  margin-top: 15%;
+}
+.cardh1{
+ background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 700; 
+  margin-top: 30px;
+
+}
+
+
+.cardh2{
+   background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 14px;
+  font-weight: 600; 
+  margin-top: 10px;
+  font-style: italic;
+
+}
+
+
+.cardhp{
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  width: 320px;
+}
+
+
+.cards img:hover{
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+
+}
+
+.cards:hover{
+border-color: rgba(212,160,36,.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(212,160,36,.1);
+  transition: all 1s ;
+}
+
