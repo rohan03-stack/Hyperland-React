@@ -39,7 +39,7 @@ export const Home = () => {
 
         
       <div class="button-container mt-7">
-  <a class="menu-button" href="/menu">Explore Our Menu</a>
+  <a class="menu">Explore Our Menu</a>
 
   <button class="btn"> Reserve a Table
 </button>
@@ -48,7 +48,7 @@ export const Home = () => {
 
 
 
-      <div className="section ">
+      <div className="section  ">
         <div className="label mt-20">
  <span className=" label-tex">Signature Dishes</span>
         </div>
@@ -56,7 +56,7 @@ export const Home = () => {
        <p className="sec-p">Each dish tells a story of French culinary tradition, reimagined with modern artistry</p>
       </div>
 
-<div className='grid'>
+<div className='grid '>
 
 
       {
@@ -66,7 +66,7 @@ export const Home = () => {
          
           <>
           <div key={id}>
-            <div className="cards  ">
+            <div className="cards   ">
           <img src={el.img} className='w-110 h-80 rounded-2xl ' />
            <h1 className='cardh1 font-serif'>{el.fdname}</h1>
            <h2 className='cardh2'>{el.char}</h2>
@@ -90,6 +90,29 @@ export const Home = () => {
         ))
       }
 
+</div>
+
+
+
+<div className="abmain ">
+
+
+<div className="imgabout flex mx-30  ">
+  <div className="abou1 mb-30">
+      <div className="label mt-20">
+ <span className=" label-tex">OUR STORY</span>
+        </div>
+
+        <h1 className='abth1'>The Art of French Cuisine</h1>
+<p className='text-[19px] w-148 mt-3 text-amber-50'> Our restaurant is a place where tradition meets innovation. Every dish is prepared with the finest ingredients and served in an atmosphere of authentic French elegance.</p>
+<p className='text-[19px] w-148 mt-4 text-amber-50'>Experience the magic of culinary artistry, where every meal becomes an unforgettable event, and flavors transport you to the finest restaurants of Paris.</p>
+
+<button className='bt'>Learn More About This</button>
+  </div>
+  <div className="img3 mt-20 ml-20  ">
+    <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/0b6a87b673d7996625a77e227127015d.jpg" className="w-170 h-104  rounded-2xl" alt="" />
+  </div>
+</div>
 </div>
  
     </div>

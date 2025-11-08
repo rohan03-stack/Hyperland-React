@@ -1,5 +1,5 @@
 .homeimg{
-    background-image: url("https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/1d2f0b7e76a950b09a53e92f19ab7f60.jpg");
+    background-image: url("https://img.freepik.com/free-photo/top-view-dining-tables-without-food_23-2150157806.jpg?semt=ais_hybrid&w=740&q=80");
     height: 662px;
     width: 100%;
     background-position: center;
@@ -7,7 +7,7 @@
     background-size: cover;
     /* opacity: 20; */
     position: relative;
-    filter: blur(3px);
+    /* filter: blur(3px); */
     
 }
 
@@ -64,22 +64,24 @@
 }
 
 /* Explore Our Menu button */
-.menu-button {
-  font-size: 20px;       /* text-lg */
+.menu{
+  font-size: 20px;   
+  background-color: #ece117!important;
+  border: 2px solid black;    
   padding: 1rem 2.5rem;    
   display: inline-block;
-  transform: scale(1);
+  /* transform: scale(1); */
   transition: transform 0.3s ease;
   text-decoration: none;
 font-weight: bold;
-  border-radius: 9999px;     /* optional rounded style */
-  background-color: #bab20e;
-  color: black;
+  border-radius: 9999px;    
+ border: 2px solid yellow;
+
   
 }
 
 
-.menu-button:hover {
+.menu:hover {
   transform: scale(1.05); 
     box-shadow: 2px 2px 20px gold;
 }
@@ -95,7 +97,7 @@ width: 200px;
  margin: 0.5em;
  /* background: black; */
   backdrop-filter: blur(4px);
- color: yellow;
+ color: rgba(222, 183, 64, 0.896);
  border: 2px solid yellow;
  border-radius: 20px;
  font-size: 20px;
@@ -185,7 +187,7 @@ button:hover:after {
 .cards{
   text-align: center;
   /* width: 800px; */
-  height: 550px;
+  height: 560px;
   background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
  backdrop-filter: blur(10px);
  border: 1px solid rgba(212,160,36,.2);
@@ -194,6 +196,7 @@ button:hover:after {
   margin: auto;
   width: 80%; 
   margin-top: 15%;
+  margin-bottom: 150px;
 }
 .cardh1{
  background: linear-gradient(135deg,#f0c572,#d4a024);
@@ -252,6 +255,7 @@ a{
   -webkit-text-fill-color: transparent;
   width: auto;
   transition: transform all 0,3s;
+  
 
 }
 i{
@@ -262,4 +266,44 @@ i{
 
 transform: translatex(6px);
 
+}
+
+
+.abth1{
+   background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-weight: 700; 
+  
+  font-family: serif;
+}
+
+.abmain{
+  background-color: rgba(0, 0, 0, 0.885);
+}
+
+
+.bt{
+    font-size: 17px;   
+  background-color: #9a740ceb!important;
+  border: 2px solid black;    
+  padding: 1rem 2.5rem;    
+  display: inline-block;
+  /* transform: scale(1); */
+ 
+  text-decoration: none;
+font-weight: bold;
+  border-radius: 9999px;    
+ /* border: 2px solid rgb(192, 192, 37); */
+ margin-top: 20px;
+}
+
+.bt:hover{
+  box-shadow: 2px 2px 15px gold;
+  border: 2px solid white;
+ 
+ 
 }
