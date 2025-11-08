@@ -66,17 +66,18 @@
 /* Explore Our Menu button */
 .menu-button {
   font-size: 20px;       /* text-lg */
-  padding: 1rem 2.5rem;      /* py-4 px-10 */
+  padding: 1rem 2.5rem;    
   display: inline-block;
   transform: scale(1);
   transition: transform 0.3s ease;
   text-decoration: none;
 font-weight: bold;
   border-radius: 9999px;     /* optional rounded style */
-  background-color: #d4ca0c; /* assumed primary color */
+  background-color: #bab20e;
   color: black;
   
 }
+
 
 .menu-button:hover {
   transform: scale(1.05); 
@@ -184,7 +185,7 @@ button:hover:after {
 .cards{
   text-align: center;
   /* width: 800px; */
-  height: 500px;
+  height: 550px;
   background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
  backdrop-filter: blur(10px);
  border: 1px solid rgba(212,160,36,.2);
@@ -226,6 +227,7 @@ button:hover:after {
   font-weight: 500;
   color: white;
   width: 320px;
+  margin-top: 20px;
 }
 
 
@@ -242,3 +244,22 @@ border-color: rgba(212,160,36,.4);
   transition: all 1s ;
 }
 
+a{
+   background: linear-gradient(135deg,#f0c572,#d4a024);
+    background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: auto;
+  transition: transform all 0,3s;
+
+}
+i{
+  font-size: 10px;
+ z-index: 30;
+}
+.cards:hover a i{
+
+transform: translatex(6px);
+
+}

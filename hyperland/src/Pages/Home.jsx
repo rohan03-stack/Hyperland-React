@@ -74,7 +74,7 @@ export const Home = () => {
 
 
 
-           
+           <a href="">Discover more  <i class="fa-solid fa-greater-than"></i></a>
 
            
             </div>

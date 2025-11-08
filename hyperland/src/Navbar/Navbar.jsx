@@ -16,9 +16,11 @@ export const Navbar = () => {
             <Link  to="/" className='mr-8'>Home</Link>
              <Link to="/menu" className='mr-8'>Menu</Link>
               <Link to="/design" className='mr-8'>Design</Link>
-               <Link to= "chef" className='mr-8'>Chefs</Link>
-                <Link to="about" className='mr-8'>About</Link>
-                 <Link to="reserv" className='mr-8'>Reservation</Link>
+               <Link to= "/chef" className='mr-8'>Chefs</Link>
+                <Link to="/about" className='mr-8'>About</Link>
+                <Link to="/resrv">Reservation</Link>
+               
+                
 
           </ul>
         </div>

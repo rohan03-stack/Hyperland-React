@@ -10,6 +10,9 @@ import { About } from "./Pages/About.jsx";
 import { Design } from "./Pages/Design.jsx";
 import { Chef } from "./Pages/Chef.jsx";
 import { Reservation } from "./Pages/Reservation.jsx";
+import { Footer } from './Footer/Footer.jsx'
+import{Privacy} from'./Privacy/Privacy.jsx';
+import{Cookie} from'./Privacy/Cookie.jsx';
 
 function App() {
 
@@ -25,8 +28,12 @@ function App() {
         <Route path="/about" element={<About />}></Route>
       
       <Route path="/resrv" element={<Reservation/>}></Route>
+      <Route path='/privacy' element={<Privacy/>}></Route>
+      <Route path='/cookie' element={<Cookie/>}></Route>
 
     </Routes>
+
+    <Footer />
     </>
   )
 }
