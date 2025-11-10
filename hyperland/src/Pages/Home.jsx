@@ -65,7 +65,8 @@ export const Home = () => {
 
          
           <>
-          <div key={id}>
+          <
+            div key={id}>
             <div className="cards   ">
           <img src={el.img} className='w-110 h-80 rounded-2xl ' />
            <h1 className='cardh1 font-serif'>{el.fdname}</h1>
@@ -114,6 +115,86 @@ export const Home = () => {
   </div>
 </div>
 </div>
+
+
+
+<div className="chefs text-center bg-black">
+   <div className="label mt-20">
+ <span className=" label-tex">MASTER CHEFS</span>
+        </div>
+         <h1 className="sec-gradient font-serif ">Culinary Masterpieces</h1>
+         <p className='text-amber-50 text-[18px] font-medium mt-10 w-150 ml-118'>Our team of talented culinary masters creates authentic French cuisine with passion and precision</p>
+</div>
+
+   <div className="chef-main flex gap-0 px-25  py-19 bg-black">
+
+   
+   <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/203d6aedc13a691413bb753d80c8583b.jpg" className='w-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Executive Chef</h1>
+  <h2 className='cardh2'>15 years of experience</h2>
+  <p className='cardhp'>Master of classic French cuisine</p>
+   </div>
+
+     <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/2606c1d55bc11d9afaabd39bbc7b68dc.jpg" className='w-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Sous Chef</h1>
+  <h2 className='cardh2'>10 years of experience</h2>
+  <p className='cardhp'>Modern interpretation specialist</p>
+   </div>
+
+     <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/6b8a1e9e4705b23d0def284ba6b2530b.jpg" className='w-43 h-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Pastry Chef</h1>
+  <h2 className='cardh2'>8 years of experience</h2>
+  <p className='cardhp'>French pastry virtuoso</p>
+   </div>
+
+  
+ </div>
+
+<div className="but bg-black">
+ <div className="bt uppercase ml-170">meet our chefs</div>
+
+</div>
+
+
+
+
+<div className="chefs text-center bg-black">
+   <div className="label mt-20">
+ <span className=" label-tex">MASTER CHEFS</span>
+        </div>
+         <h1 className="sec-gradient font-serif ">Culinary Masterpieces</h1>
+         <p className='text-amber-50 text-[18px] font-medium mt-10 w-150 ml-118'>Our team of talented culinary masters creates authentic French cuisine with passion and precision</p>
+</div>
+
+   <div className="chef-main flex gap-0 px-25  py-19 bg-black">
+
+   
+   <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/203d6aedc13a691413bb753d80c8583b.jpg" className='w-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Executive Chef</h1>
+  <h2 className='cardh2'>15 years of experience</h2>
+  <p className='cardhp'>Master of classic French cuisine</p>
+   </div>
+
+     <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/2606c1d55bc11d9afaabd39bbc7b68dc.jpg" className='w-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Sous Chef</h1>
+  <h2 className='cardh2'>10 years of experience</h2>
+  <p className='cardhp'>Modern interpretation specialist</p>
+   </div>
+
+     <div className="chef-1   ">
+  <img src="https://xn--hrsw-83d0a0ffu.xn--hngapp-3nf2be9ivbz917d.swapneweu.com/6b8a1e9e4705b23d0def284ba6b2530b.jpg" className='w-43 h-40 rounded-full ml-20 ' alt="" />
+  <h1 className='cardh1'>Pastry Chef</h1>
+  <h2 className='cardh2'>8 years of experience</h2>
+  <p className='cardhp'>French pastry virtuoso</p>
+   </div>
+
+  
+ </div>
  
     </div>
   )
