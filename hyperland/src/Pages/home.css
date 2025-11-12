@@ -312,7 +312,7 @@ font-weight: bold;
 .chef-1{
     text-align: center;
   width: 400px;
-  height: 400px;
+  /* height: 400px; */
   background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
  backdrop-filter: blur(10px);
  border: 1px solid rgba(212,160,36,.2);
@@ -332,4 +332,45 @@ font-weight: bold;
 .chef-1:hover img{
   transform: scale(0.9);
   transition: all 1s;
+}
+
+
+.text-primary-400{
+  --tw-text-opacity: 1;
+  color: rgb(234 181 76/var(--tw-text-opacity,1));
+}
+
+.bg-primary-500 {
+background-color: rgb(212 160 36/.2);
+}
+
+
+.divimg1{
+   background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
+ backdrop-filter: blur(10px);
+ border: 1px solid rgba(212,160,36,.2);
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+
+.divimg2{
+   background: linear-gradient(135deg,rgba(26,26,26,.6),rgba(69,69,69,.3));
+ backdrop-filter: blur(10px);
+ border: 1px solid rgba(212,160,36,.2);
+  border-radius: 10px;
+  transition: all 1s;
+}
+.divimg1:hover{
+  
+ border-color: rgba(212,160,36,.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(212,160,36,.1);
+  transition: all 1s ;
+}
+.divimg2:hover{
+   border-color: rgba(212,160,36,.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(212,160,36,.1);
+  transition: all 1s ;
 }
